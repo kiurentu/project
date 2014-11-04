@@ -1,0 +1,36 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+// 设置Debug模式编译时，打印Log
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+
+#define ISDEBUG YES // 是否开启测试模式
+
+#define SYSTERM_VERSION ([[[[UIDevice currentDevice]systemVersion] substringToIndex:1] intValue]) // 获取系统版本
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width) // 获取屏幕宽度
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height) // 获取屏幕高度
+
+#define IMAGE(imageName) ([UIImage imageNamed:imageName]) // 创建图片
+
+#define RGBA(R, G, B, A) ([UIColor colorWithRed:R/255.0f green:G/255.0f blue:B/255.0f alpha:A]) // 试用RGBA(0~255)创建一个UIColor
