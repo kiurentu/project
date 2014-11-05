@@ -16,13 +16,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total-screen__bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="KX4-MD-6JC">
-                    <rect key="frame" x="8" y="169" width="304" height="128"/>
+                    <rect key="frame" x="8" y="190" width="304" height="85"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total-screen__user.png" translatesAutoresizingMaskIntoConstraints="NO" id="wm3-Ue-jAL">
                     <rect key="frame" x="113" y="56" width="95" height="95"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWN-lQ-ote">
                     <rect key="frame" x="9" y="308" width="298" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <state key="normal" title="登录" backgroundImage="total-screen_登录normal.png">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
