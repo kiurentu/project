@@ -21,7 +21,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notificationInitController:) name:NTFC_INIT_CONTROLLER object:nil];
-
+    
     if(DEBUG){
         [self initTabBarController];
     }else{

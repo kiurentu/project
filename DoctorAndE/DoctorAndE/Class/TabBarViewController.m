@@ -73,6 +73,7 @@
     UINavigationController *personalCentre = [self createAndInitNavigationController:[PersonalCentreViewController class]];
     
     self.viewControllers = @[home, medicalCentre, healthStore, appCentre, personalCentre];
+    
 }
 
 // 添加自定义选项卡
