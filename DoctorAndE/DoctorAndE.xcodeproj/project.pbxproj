@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		642E2A511A0A032A00DDCF1F /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2A4F1A0A032A00DDCF1F /* registerViewController.m */; };
+		642E2A521A0A032A00DDCF1F /* registerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A501A0A032A00DDCF1F /* registerViewController.xib */; };
+		642E2A561A0A075E00DDCF1F /* passwordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E2A541A0A075E00DDCF1F /* passwordViewController.m */; };
+		642E2A571A0A075E00DDCF1F /* passwordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A551A0A075E00DDCF1F /* passwordViewController.xib */; };
+		642E2A7D1A0A0C5200DDCF1F /* nav-bar_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A591A0A0C5200DDCF1F /* nav-bar_logo.png */; };
+		642E2A7E1A0A0C5200DDCF1F /* nav-bar_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A5A1A0A0C5200DDCF1F /* nav-bar_logo@2x.png */; };
+		642E2A7F1A0A0C5200DDCF1F /* nav-bar_设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A5B1A0A0C5200DDCF1F /* nav-bar_设置.png */; };
+		642E2A801A0A0C5200DDCF1F /* nav-bar_设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A5C1A0A0C5200DDCF1F /* nav-bar_设置@2x.png */; };
+		642E2A811A0A0C5200DDCF1F /* total-screen__bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A5D1A0A0C5200DDCF1F /* total-screen__bg.png */; };
+		642E2A821A0A0C5200DDCF1F /* total-screen__bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A5E1A0A0C5200DDCF1F /* total-screen__bg@2x.png */; };
+		642E2A831A0A0C5200DDCF1F /* total-screen__user.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A5F1A0A0C5200DDCF1F /* total-screen__user.png */; };
+		642E2A841A0A0C5200DDCF1F /* total-screen__user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A601A0A0C5200DDCF1F /* total-screen__user@2x.png */; };
+		642E2A851A0A0C5200DDCF1F /* total-screen__密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A611A0A0C5200DDCF1F /* total-screen__密码.png */; };
+		642E2A861A0A0C5200DDCF1F /* total-screen__密码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A621A0A0C5200DDCF1F /* total-screen__密码@2x.png */; };
+		642E2A871A0A0C5200DDCF1F /* total-screen__用户.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A631A0A0C5200DDCF1F /* total-screen__用户.png */; };
+		642E2A881A0A0C5200DDCF1F /* total-screen__用户@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A641A0A0C5200DDCF1F /* total-screen__用户@2x.png */; };
+		642E2A891A0A0C5200DDCF1F /* total-screen_btn-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A651A0A0C5200DDCF1F /* total-screen_btn-normal.png */; };
+		642E2A8A1A0A0C5200DDCF1F /* total-screen_btn-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A661A0A0C5200DDCF1F /* total-screen_btn-normal@2x.png */; };
+		642E2A8B1A0A0C5200DDCF1F /* total-screen_btn-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A671A0A0C5200DDCF1F /* total-screen_btn-pressed.png */; };
+		642E2A8C1A0A0C5200DDCF1F /* total-screen_btn-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A681A0A0C5200DDCF1F /* total-screen_btn-pressed@2x.png */; };
+		642E2A8D1A0A0C5200DDCF1F /* total-screen_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A691A0A0C5200DDCF1F /* total-screen_line.png */; };
+		642E2A8E1A0A0C5200DDCF1F /* total-screen_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A6A1A0A0C5200DDCF1F /* total-screen_line@2x.png */; };
+		642E2A8F1A0A0C5200DDCF1F /* total-screen_找回密码normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A6B1A0A0C5200DDCF1F /* total-screen_找回密码normal.png */; };
+		642E2A901A0A0C5200DDCF1F /* total-screen_找回密码normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A6C1A0A0C5200DDCF1F /* total-screen_找回密码normal@2x.png */; };
+		642E2A911A0A0C5200DDCF1F /* total-screen_找回密码pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A6D1A0A0C5200DDCF1F /* total-screen_找回密码pressed.png */; };
+		642E2A921A0A0C5200DDCF1F /* total-screen_找回密码pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A6E1A0A0C5200DDCF1F /* total-screen_找回密码pressed@2x.png */; };
+		642E2A931A0A0C5200DDCF1F /* total-screen_注册normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A6F1A0A0C5200DDCF1F /* total-screen_注册normal.png */; };
+		642E2A941A0A0C5200DDCF1F /* total-screen_注册normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A701A0A0C5200DDCF1F /* total-screen_注册normal@2x.png */; };
+		642E2A951A0A0C5200DDCF1F /* total-screen_注册pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A711A0A0C5200DDCF1F /* total-screen_注册pressed.png */; };
+		642E2A961A0A0C5200DDCF1F /* total-screen_注册pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A721A0A0C5200DDCF1F /* total-screen_注册pressed@2x.png */; };
+		642E2A971A0A0C5200DDCF1F /* total-screen_登录normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A731A0A0C5200DDCF1F /* total-screen_登录normal.png */; };
+		642E2A981A0A0C5200DDCF1F /* total-screen_登录normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A741A0A0C5200DDCF1F /* total-screen_登录normal@2x.png */; };
+		642E2A991A0A0C5200DDCF1F /* total-screen_登录pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A751A0A0C5200DDCF1F /* total-screen_登录pressed.png */; };
+		642E2A9A1A0A0C5200DDCF1F /* total-screen_登录pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A761A0A0C5200DDCF1F /* total-screen_登录pressed@2x.png */; };
+		642E2A9B1A0A0C5200DDCF1F /* total-screen_输入框.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A771A0A0C5200DDCF1F /* total-screen_输入框.png */; };
+		642E2A9C1A0A0C5200DDCF1F /* total-screen_输入框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A781A0A0C5200DDCF1F /* total-screen_输入框@2x.png */; };
+		642E2A9D1A0A0C5200DDCF1F /* total-screen_验证码输入框.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A791A0A0C5200DDCF1F /* total-screen_验证码输入框.png */; };
+		642E2A9E1A0A0C5200DDCF1F /* total-screen_验证码输入框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A7A1A0A0C5200DDCF1F /* total-screen_验证码输入框@2x.png */; };
+		642E2A9F1A0A0C5200DDCF1F /* 弹出框_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A7B1A0A0C5200DDCF1F /* 弹出框_bg.png */; };
+		642E2AA01A0A0C5200DDCF1F /* 弹出框_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A7C1A0A0C5200DDCF1F /* 弹出框_bg@2x.png */; };
 		F667C01F1A07661000AA6484 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667C01D1A07661000AA6484 /* TabBarViewController.m */; };
 		F66968121A08B87000157607 /* WaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66968111A08B87000157607 /* WaitView.m */; };
 		F66968141A08BE5100157607 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F66968131A08BE5100157607 /* Default-568h@2x.png */; };
@@ -74,6 +114,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		642E2A4E1A0A032A00DDCF1F /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registerViewController.h; path = Class/Login/registerViewController.h; sourceTree = "<group>"; };
+		642E2A4F1A0A032A00DDCF1F /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = registerViewController.m; path = Class/Login/registerViewController.m; sourceTree = "<group>"; };
+		642E2A501A0A032A00DDCF1F /* registerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = registerViewController.xib; path = Class/Login/registerViewController.xib; sourceTree = "<group>"; };
+		642E2A531A0A075E00DDCF1F /* passwordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = passwordViewController.h; path = Class/Login/passwordViewController.h; sourceTree = "<group>"; };
+		642E2A541A0A075E00DDCF1F /* passwordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = passwordViewController.m; path = Class/Login/passwordViewController.m; sourceTree = "<group>"; };
+		642E2A551A0A075E00DDCF1F /* passwordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = passwordViewController.xib; path = Class/Login/passwordViewController.xib; sourceTree = "<group>"; };
+		642E2A591A0A0C5200DDCF1F /* nav-bar_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav-bar_logo.png"; path = "0登录/nav-bar_logo.png"; sourceTree = "<group>"; };
+		642E2A5A1A0A0C5200DDCF1F /* nav-bar_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav-bar_logo@2x.png"; path = "0登录/nav-bar_logo@2x.png"; sourceTree = "<group>"; };
+		642E2A5B1A0A0C5200DDCF1F /* nav-bar_设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav-bar_设置.png"; path = "0登录/nav-bar_设置.png"; sourceTree = "<group>"; };
+		642E2A5C1A0A0C5200DDCF1F /* nav-bar_设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav-bar_设置@2x.png"; path = "0登录/nav-bar_设置@2x.png"; sourceTree = "<group>"; };
+		642E2A5D1A0A0C5200DDCF1F /* total-screen__bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen__bg.png"; path = "0登录/total-screen__bg.png"; sourceTree = "<group>"; };
+		642E2A5E1A0A0C5200DDCF1F /* total-screen__bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen__bg@2x.png"; path = "0登录/total-screen__bg@2x.png"; sourceTree = "<group>"; };
+		642E2A5F1A0A0C5200DDCF1F /* total-screen__user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen__user.png"; path = "0登录/total-screen__user.png"; sourceTree = "<group>"; };
+		642E2A601A0A0C5200DDCF1F /* total-screen__user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen__user@2x.png"; path = "0登录/total-screen__user@2x.png"; sourceTree = "<group>"; };
+		642E2A611A0A0C5200DDCF1F /* total-screen__密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen__密码.png"; path = "0登录/total-screen__密码.png"; sourceTree = "<group>"; };
+		642E2A621A0A0C5200DDCF1F /* total-screen__密码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen__密码@2x.png"; path = "0登录/total-screen__密码@2x.png"; sourceTree = "<group>"; };
+		642E2A631A0A0C5200DDCF1F /* total-screen__用户.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen__用户.png"; path = "0登录/total-screen__用户.png"; sourceTree = "<group>"; };
+		642E2A641A0A0C5200DDCF1F /* total-screen__用户@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen__用户@2x.png"; path = "0登录/total-screen__用户@2x.png"; sourceTree = "<group>"; };
+		642E2A651A0A0C5200DDCF1F /* total-screen_btn-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_btn-normal.png"; path = "0登录/total-screen_btn-normal.png"; sourceTree = "<group>"; };
+		642E2A661A0A0C5200DDCF1F /* total-screen_btn-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_btn-normal@2x.png"; path = "0登录/total-screen_btn-normal@2x.png"; sourceTree = "<group>"; };
+		642E2A671A0A0C5200DDCF1F /* total-screen_btn-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_btn-pressed.png"; path = "0登录/total-screen_btn-pressed.png"; sourceTree = "<group>"; };
+		642E2A681A0A0C5200DDCF1F /* total-screen_btn-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_btn-pressed@2x.png"; path = "0登录/total-screen_btn-pressed@2x.png"; sourceTree = "<group>"; };
+		642E2A691A0A0C5200DDCF1F /* total-screen_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_line.png"; path = "0登录/total-screen_line.png"; sourceTree = "<group>"; };
+		642E2A6A1A0A0C5200DDCF1F /* total-screen_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_line@2x.png"; path = "0登录/total-screen_line@2x.png"; sourceTree = "<group>"; };
+		642E2A6B1A0A0C5200DDCF1F /* total-screen_找回密码normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_找回密码normal.png"; path = "0登录/total-screen_找回密码normal.png"; sourceTree = "<group>"; };
+		642E2A6C1A0A0C5200DDCF1F /* total-screen_找回密码normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_找回密码normal@2x.png"; path = "0登录/total-screen_找回密码normal@2x.png"; sourceTree = "<group>"; };
+		642E2A6D1A0A0C5200DDCF1F /* total-screen_找回密码pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_找回密码pressed.png"; path = "0登录/total-screen_找回密码pressed.png"; sourceTree = "<group>"; };
+		642E2A6E1A0A0C5200DDCF1F /* total-screen_找回密码pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_找回密码pressed@2x.png"; path = "0登录/total-screen_找回密码pressed@2x.png"; sourceTree = "<group>"; };
+		642E2A6F1A0A0C5200DDCF1F /* total-screen_注册normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_注册normal.png"; path = "0登录/total-screen_注册normal.png"; sourceTree = "<group>"; };
+		642E2A701A0A0C5200DDCF1F /* total-screen_注册normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_注册normal@2x.png"; path = "0登录/total-screen_注册normal@2x.png"; sourceTree = "<group>"; };
+		642E2A711A0A0C5200DDCF1F /* total-screen_注册pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_注册pressed.png"; path = "0登录/total-screen_注册pressed.png"; sourceTree = "<group>"; };
+		642E2A721A0A0C5200DDCF1F /* total-screen_注册pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_注册pressed@2x.png"; path = "0登录/total-screen_注册pressed@2x.png"; sourceTree = "<group>"; };
+		642E2A731A0A0C5200DDCF1F /* total-screen_登录normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_登录normal.png"; path = "0登录/total-screen_登录normal.png"; sourceTree = "<group>"; };
+		642E2A741A0A0C5200DDCF1F /* total-screen_登录normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_登录normal@2x.png"; path = "0登录/total-screen_登录normal@2x.png"; sourceTree = "<group>"; };
+		642E2A751A0A0C5200DDCF1F /* total-screen_登录pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_登录pressed.png"; path = "0登录/total-screen_登录pressed.png"; sourceTree = "<group>"; };
+		642E2A761A0A0C5200DDCF1F /* total-screen_登录pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_登录pressed@2x.png"; path = "0登录/total-screen_登录pressed@2x.png"; sourceTree = "<group>"; };
+		642E2A771A0A0C5200DDCF1F /* total-screen_输入框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_输入框.png"; path = "0登录/total-screen_输入框.png"; sourceTree = "<group>"; };
+		642E2A781A0A0C5200DDCF1F /* total-screen_输入框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_输入框@2x.png"; path = "0登录/total-screen_输入框@2x.png"; sourceTree = "<group>"; };
+		642E2A791A0A0C5200DDCF1F /* total-screen_验证码输入框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_验证码输入框.png"; path = "0登录/total-screen_验证码输入框.png"; sourceTree = "<group>"; };
+		642E2A7A1A0A0C5200DDCF1F /* total-screen_验证码输入框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "total-screen_验证码输入框@2x.png"; path = "0登录/total-screen_验证码输入框@2x.png"; sourceTree = "<group>"; };
+		642E2A7B1A0A0C5200DDCF1F /* 弹出框_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "弹出框_bg.png"; path = "0登录/弹出框_bg.png"; sourceTree = "<group>"; };
+		642E2A7C1A0A0C5200DDCF1F /* 弹出框_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "弹出框_bg@2x.png"; path = "0登录/弹出框_bg@2x.png"; sourceTree = "<group>"; };
 		F667C01C1A07661000AA6484 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = Class/TabBarViewController.h; sourceTree = "<group>"; };
 		F667C01D1A07661000AA6484 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = Class/TabBarViewController.m; sourceTree = "<group>"; };
 		F66968101A08B87000157607 /* WaitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitView.h; sourceTree = "<group>"; };
@@ -168,6 +250,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642E2A051A09BFFB00DDCF1F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				642E2A591A0A0C5200DDCF1F /* nav-bar_logo.png */,
+				642E2A5A1A0A0C5200DDCF1F /* nav-bar_logo@2x.png */,
+				642E2A5B1A0A0C5200DDCF1F /* nav-bar_设置.png */,
+				642E2A5C1A0A0C5200DDCF1F /* nav-bar_设置@2x.png */,
+				642E2A5D1A0A0C5200DDCF1F /* total-screen__bg.png */,
+				642E2A5E1A0A0C5200DDCF1F /* total-screen__bg@2x.png */,
+				642E2A5F1A0A0C5200DDCF1F /* total-screen__user.png */,
+				642E2A601A0A0C5200DDCF1F /* total-screen__user@2x.png */,
+				642E2A611A0A0C5200DDCF1F /* total-screen__密码.png */,
+				642E2A621A0A0C5200DDCF1F /* total-screen__密码@2x.png */,
+				642E2A631A0A0C5200DDCF1F /* total-screen__用户.png */,
+				642E2A641A0A0C5200DDCF1F /* total-screen__用户@2x.png */,
+				642E2A651A0A0C5200DDCF1F /* total-screen_btn-normal.png */,
+				642E2A661A0A0C5200DDCF1F /* total-screen_btn-normal@2x.png */,
+				642E2A671A0A0C5200DDCF1F /* total-screen_btn-pressed.png */,
+				642E2A681A0A0C5200DDCF1F /* total-screen_btn-pressed@2x.png */,
+				642E2A691A0A0C5200DDCF1F /* total-screen_line.png */,
+				642E2A6A1A0A0C5200DDCF1F /* total-screen_line@2x.png */,
+				642E2A6B1A0A0C5200DDCF1F /* total-screen_找回密码normal.png */,
+				642E2A6C1A0A0C5200DDCF1F /* total-screen_找回密码normal@2x.png */,
+				642E2A6D1A0A0C5200DDCF1F /* total-screen_找回密码pressed.png */,
+				642E2A6E1A0A0C5200DDCF1F /* total-screen_找回密码pressed@2x.png */,
+				642E2A6F1A0A0C5200DDCF1F /* total-screen_注册normal.png */,
+				642E2A701A0A0C5200DDCF1F /* total-screen_注册normal@2x.png */,
+				642E2A711A0A0C5200DDCF1F /* total-screen_注册pressed.png */,
+				642E2A721A0A0C5200DDCF1F /* total-screen_注册pressed@2x.png */,
+				642E2A731A0A0C5200DDCF1F /* total-screen_登录normal.png */,
+				642E2A741A0A0C5200DDCF1F /* total-screen_登录normal@2x.png */,
+				642E2A751A0A0C5200DDCF1F /* total-screen_登录pressed.png */,
+				642E2A761A0A0C5200DDCF1F /* total-screen_登录pressed@2x.png */,
+				642E2A771A0A0C5200DDCF1F /* total-screen_输入框.png */,
+				642E2A781A0A0C5200DDCF1F /* total-screen_输入框@2x.png */,
+				642E2A791A0A0C5200DDCF1F /* total-screen_验证码输入框.png */,
+				642E2A7A1A0A0C5200DDCF1F /* total-screen_验证码输入框@2x.png */,
+				642E2A7B1A0A0C5200DDCF1F /* 弹出框_bg.png */,
+				642E2A7C1A0A0C5200DDCF1F /* 弹出框_bg@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		F669680F1A08B87000157607 /* WaitView */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,9 +395,16 @@
 		F67EF31B1A071EA300EA1A9A /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				642E2A051A09BFFB00DDCF1F /* Images */,
 				F67EF3811A07287A00EA1A9A /* LoginViewController.h */,
 				F67EF3821A07287A00EA1A9A /* LoginViewController.m */,
 				F67EF3831A07287A00EA1A9A /* LoginViewController.xib */,
+				642E2A4E1A0A032A00DDCF1F /* registerViewController.h */,
+				642E2A4F1A0A032A00DDCF1F /* registerViewController.m */,
+				642E2A501A0A032A00DDCF1F /* registerViewController.xib */,
+				642E2A531A0A075E00DDCF1F /* passwordViewController.h */,
+				642E2A541A0A075E00DDCF1F /* passwordViewController.m */,
+				642E2A551A0A075E00DDCF1F /* passwordViewController.xib */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -463,40 +595,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642E2A841A0A0C5200DDCF1F /* total-screen__user@2x.png in Resources */,
 				F6AAE9951A07C2F400D21E28 /* 应用中心_pressed.png in Resources */,
+				642E2A941A0A0C5200DDCF1F /* total-screen_注册normal@2x.png in Resources */,
 				F6AAE9A91A07CAE700D21E28 /* 应用中心_pressed@2x.png in Resources */,
+				642E2A811A0A0C5200DDCF1F /* total-screen__bg.png in Resources */,
 				F6AAE98F1A07C2F400D21E28 /* 健康商城_pressed.png in Resources */,
 				F67EF38F1A0728A400EA1A9A /* MedicalCentreViewController.xib in Resources */,
 				F67EF2F61A071D4400EA1A9A /* InfoPlist.strings in Resources */,
 				F6AAE9921A07C2F400D21E28 /* 医疗中心_normal.png in Resources */,
+				642E2A9E1A0A0C5200DDCF1F /* total-screen_验证码输入框@2x.png in Resources */,
 				F67EF2FE1A071D4400EA1A9A /* Images.xcassets in Resources */,
 				F6AAE98C1A07C2F400D21E28 /* 个人中心_normal.png in Resources */,
+				642E2A9D1A0A0C5200DDCF1F /* total-screen_验证码输入框.png in Resources */,
+				642E2A8E1A0A0C5200DDCF1F /* total-screen_line@2x.png in Resources */,
+				642E2A951A0A0C5200DDCF1F /* total-screen_注册pressed.png in Resources */,
 				F6AAE9A01A07CAE700D21E28 /* 个人中心_normal@2x.png in Resources */,
 				F6AAE98D1A07C2F400D21E28 /* 个人中心_pressed.png in Resources */,
+				642E2A521A0A032A00DDCF1F /* registerViewController.xib in Resources */,
 				F67EF3851A07287A00EA1A9A /* LoginViewController.xib in Resources */,
 				F67EF3941A0728B400EA1A9A /* HealthStoreViewController.xib in Resources */,
+				642E2A881A0A0C5200DDCF1F /* total-screen__用户@2x.png in Resources */,
 				F6C674D51A087DB0003786E3 /* icon.png in Resources */,
 				F6AAE9A31A07CAE700D21E28 /* 健康商城_pressed@2x.png in Resources */,
+				642E2A9B1A0A0C5200DDCF1F /* total-screen_输入框.png in Resources */,
+				642E2A971A0A0C5200DDCF1F /* total-screen_登录normal.png in Resources */,
 				F6C674D21A087DB0003786E3 /* Default@2x.png in Resources */,
+				642E2A901A0A0C5200DDCF1F /* total-screen_找回密码normal@2x.png in Resources */,
+				642E2A9F1A0A0C5200DDCF1F /* 弹出框_bg.png in Resources */,
 				F6AAE9A61A07CAE700D21E28 /* 医疗中心_normal@2x.png in Resources */,
+				642E2A861A0A0C5200DDCF1F /* total-screen__密码@2x.png in Resources */,
 				F6AAE9A21A07CAE700D21E28 /* 健康商城_normal@2x.png in Resources */,
+				642E2A981A0A0C5200DDCF1F /* total-screen_登录normal@2x.png in Resources */,
 				F67EF3991A0728C300EA1A9A /* AppCentreViewController.xib in Resources */,
 				F6C674D31A087DB0003786E3 /* icon_@2x.png in Resources */,
+				642E2A891A0A0C5200DDCF1F /* total-screen_btn-normal.png in Resources */,
+				642E2A8C1A0A0C5200DDCF1F /* total-screen_btn-pressed@2x.png in Resources */,
 				F6AAE9A51A07CAE700D21E28 /* 首页_pressed@2x.png in Resources */,
+				642E2A961A0A0C5200DDCF1F /* total-screen_注册pressed@2x.png in Resources */,
+				642E2A8D1A0A0C5200DDCF1F /* total-screen_line.png in Resources */,
+				642E2A821A0A0C5200DDCF1F /* total-screen__bg@2x.png in Resources */,
+				642E2AA01A0A0C5200DDCF1F /* 弹出框_bg@2x.png in Resources */,
+				642E2A571A0A075E00DDCF1F /* passwordViewController.xib in Resources */,
 				F6AAE9A41A07CAE700D21E28 /* 首页_normal@2x.png in Resources */,
+				642E2A9A1A0A0C5200DDCF1F /* total-screen_登录pressed@2x.png in Resources */,
 				F6AAE9931A07C2F400D21E28 /* 医疗中心_pressed.png in Resources */,
 				F6C674D11A087DB0003786E3 /* Default.png in Resources */,
+				642E2A7E1A0A0C5200DDCF1F /* nav-bar_logo@2x.png in Resources */,
 				F6AAE9A11A07CAE700D21E28 /* 个人中心_pressed@2x.png in Resources */,
+				642E2A7F1A0A0C5200DDCF1F /* nav-bar_设置.png in Resources */,
+				642E2A851A0A0C5200DDCF1F /* total-screen__密码.png in Resources */,
+				642E2A871A0A0C5200DDCF1F /* total-screen__用户.png in Resources */,
 				F6AAE9A81A07CAE700D21E28 /* 应用中心_normal@2x.png in Resources */,
 				F66968141A08BE5100157607 /* Default-568h@2x.png in Resources */,
+				642E2A931A0A0C5200DDCF1F /* total-screen_注册normal.png in Resources */,
+				642E2A801A0A0C5200DDCF1F /* nav-bar_设置@2x.png in Resources */,
+				642E2A991A0A0C5200DDCF1F /* total-screen_登录pressed.png in Resources */,
+				642E2A9C1A0A0C5200DDCF1F /* total-screen_输入框@2x.png in Resources */,
 				F6AAE98E1A07C2F400D21E28 /* 健康商城_normal.png in Resources */,
 				F6AAE9901A07C2F400D21E28 /* 首页_normal.png in Resources */,
+				642E2A8A1A0A0C5200DDCF1F /* total-screen_btn-normal@2x.png in Resources */,
 				F67EF39E1A0728D000EA1A9A /* PersonalCentreViewController.xib in Resources */,
 				F6C674D41A087DB0003786E3 /* icon_120.png in Resources */,
 				F6AAE9941A07C2F400D21E28 /* 应用中心_normal.png in Resources */,
 				F6AAE9A71A07CAE700D21E28 /* 医疗中心_pressed@2x.png in Resources */,
+				642E2A8F1A0A0C5200DDCF1F /* total-screen_找回密码normal.png in Resources */,
+				642E2A7D1A0A0C5200DDCF1F /* nav-bar_logo.png in Resources */,
+				642E2A8B1A0A0C5200DDCF1F /* total-screen_btn-pressed.png in Resources */,
+				642E2A831A0A0C5200DDCF1F /* total-screen__user.png in Resources */,
 				F67EF38A1A07289600EA1A9A /* HomeViewController.xib in Resources */,
+				642E2A921A0A0C5200DDCF1F /* total-screen_找回密码pressed@2x.png in Resources */,
 				F6AAE9911A07C2F400D21E28 /* 首页_pressed.png in Resources */,
+				642E2A911A0A0C5200DDCF1F /* total-screen_找回密码pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +686,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F67EF3931A0728B400EA1A9A /* HealthStoreViewController.m in Sources */,
+				642E2A511A0A032A00DDCF1F /* registerViewController.m in Sources */,
 				F67EF2FC1A071D4400EA1A9A /* AppDelegate.m in Sources */,
+				642E2A561A0A075E00DDCF1F /* passwordViewController.m in Sources */,
 				F67EF2F81A071D4400EA1A9A /* main.m in Sources */,
 				F68F85BF1A08C23F00B868F9 /* Tools.m in Sources */,
 				F67EF38E1A0728A400EA1A9A /* MedicalCentreViewController.m in Sources */,

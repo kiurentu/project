@@ -18,15 +18,19 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    LoginViewController *l = [[LoginViewController alloc]initWithNibName:@"LoginViewController" bundle:nil];
+    self.window.rootViewController = l;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notificationInitController:) name:NTFC_INIT_CONTROLLER object:nil];
-    
-    if(DEBUG){
-        [self initTabBarController];
-    }else{
-        [self initLoginController];
-    }
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notificationInitController:) name:NTFC_INIT_CONTROLLER object:nil];
+//    
+//    if(DEBUG){
+//        [self initTabBarController];
+//    }else{
+//        [self initLoginController];
+//    }
     return YES;
 }
 

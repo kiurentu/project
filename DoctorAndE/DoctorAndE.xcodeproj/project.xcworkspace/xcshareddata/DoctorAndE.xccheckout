@@ -10,31 +10,43 @@
 	<string>DoctorAndE</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1BB4E2EE181B13529950B279B56CF7323416F11E</key>
-		<string>https://git.oschina.net/skytoup/DoctorAndE.git</string>
+		<key>C2672019C1EC4A4368DAB64C173965B5A222BFBA</key>
+		<string>https://git.oschina.net/krt/test.git</string>
+		<key>C45BB8299F390073875A551C81B185C7E22A4ED5</key>
+		<string>https://github.com/kiurentu/project.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>project/DoctorAndE/DoctorAndE.xcodeproj</string>
+	<string>DoctorAndE/DoctorAndE.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1BB4E2EE181B13529950B279B56CF7323416F11E</key>
-		<string>../../../..</string>
+		<key>C2672019C1EC4A4368DAB64C173965B5A222BFBA</key>
+		<string>../../../../..</string>
+		<key>C45BB8299F390073875A551C81B185C7E22A4ED5</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://git.oschina.net/skytoup/DoctorAndE.git</string>
+	<string>https://github.com/kiurentu/project.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1BB4E2EE181B13529950B279B56CF7323416F11E</string>
+	<string>C45BB8299F390073875A551C81B185C7E22A4ED5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1BB4E2EE181B13529950B279B56CF7323416F11E</string>
+			<string>C2672019C1EC4A4368DAB64C173965B5A222BFBA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>DoctorAndE</string>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C45BB8299F390073875A551C81B185C7E22A4ED5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>project</string>
 		</dict>
 	</array>
 </dict>
