@@ -49,6 +49,8 @@
 		642E2AA01A0A0C5200DDCF1F /* 弹出框_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E2A7C1A0A0C5200DDCF1F /* 弹出框_bg@2x.png */; };
 		64E7690A1A0B163F00DC95A8 /* finshiRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E769081A0B163F00DC95A8 /* finshiRegisterViewController.m */; };
 		64E7690B1A0B163F00DC95A8 /* finshiRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E769091A0B163F00DC95A8 /* finshiRegisterViewController.xib */; };
+		64E7690F1A0B7A0F00DC95A8 /* passwordFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7690D1A0B7A0F00DC95A8 /* passwordFindViewController.m */; };
+		64E769101A0B7A0F00DC95A8 /* passwordFindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E7690E1A0B7A0F00DC95A8 /* passwordFindViewController.xib */; };
 		F667C01F1A07661000AA6484 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F667C01D1A07661000AA6484 /* TabBarViewController.m */; };
 		F66968121A08B87000157607 /* WaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66968111A08B87000157607 /* WaitView.m */; };
 		F66968141A08BE5100157607 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F66968131A08BE5100157607 /* Default-568h@2x.png */; };
@@ -161,6 +163,9 @@
 		64E769071A0B163F00DC95A8 /* finshiRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = finshiRegisterViewController.h; path = Class/Login/finshiRegisterViewController.h; sourceTree = "<group>"; };
 		64E769081A0B163F00DC95A8 /* finshiRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = finshiRegisterViewController.m; path = Class/Login/finshiRegisterViewController.m; sourceTree = "<group>"; };
 		64E769091A0B163F00DC95A8 /* finshiRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = finshiRegisterViewController.xib; path = Class/Login/finshiRegisterViewController.xib; sourceTree = "<group>"; };
+		64E7690C1A0B7A0F00DC95A8 /* passwordFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = passwordFindViewController.h; path = Class/Login/passwordFindViewController.h; sourceTree = "<group>"; };
+		64E7690D1A0B7A0F00DC95A8 /* passwordFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = passwordFindViewController.m; path = Class/Login/passwordFindViewController.m; sourceTree = "<group>"; };
+		64E7690E1A0B7A0F00DC95A8 /* passwordFindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = passwordFindViewController.xib; path = Class/Login/passwordFindViewController.xib; sourceTree = "<group>"; };
 		F667C01C1A07661000AA6484 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = Class/TabBarViewController.h; sourceTree = "<group>"; };
 		F667C01D1A07661000AA6484 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = Class/TabBarViewController.m; sourceTree = "<group>"; };
 		F66968101A08B87000157607 /* WaitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitView.h; sourceTree = "<group>"; };
@@ -413,6 +418,9 @@
 				64E769071A0B163F00DC95A8 /* finshiRegisterViewController.h */,
 				64E769081A0B163F00DC95A8 /* finshiRegisterViewController.m */,
 				64E769091A0B163F00DC95A8 /* finshiRegisterViewController.xib */,
+				64E7690C1A0B7A0F00DC95A8 /* passwordFindViewController.h */,
+				64E7690D1A0B7A0F00DC95A8 /* passwordFindViewController.m */,
+				64E7690E1A0B7A0F00DC95A8 /* passwordFindViewController.xib */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -651,6 +659,7 @@
 				F6AAE9931A07C2F400D21E28 /* 医疗中心_pressed.png in Resources */,
 				F6C674D11A087DB0003786E3 /* Default.png in Resources */,
 				642E2A7E1A0A0C5200DDCF1F /* nav-bar_logo@2x.png in Resources */,
+				64E769101A0B7A0F00DC95A8 /* passwordFindViewController.xib in Resources */,
 				F6AAE9A11A07CAE700D21E28 /* 个人中心_pressed@2x.png in Resources */,
 				642E2A7F1A0A0C5200DDCF1F /* nav-bar_设置.png in Resources */,
 				642E2A851A0A0C5200DDCF1F /* total-screen__密码.png in Resources */,
@@ -704,6 +713,7 @@
 				F68F85BC1A08C20C00B868F9 /* MBProgressHUD.m in Sources */,
 				F67EF3981A0728C300EA1A9A /* AppCentreViewController.m in Sources */,
 				F67EF39D1A0728D000EA1A9A /* PersonalCentreViewController.m in Sources */,
+				64E7690F1A0B7A0F00DC95A8 /* passwordFindViewController.m in Sources */,
 				F67EF3841A07287A00EA1A9A /* LoginViewController.m in Sources */,
 				F66968121A08B87000157607 /* WaitView.m in Sources */,
 				F667C01F1A07661000AA6484 /* TabBarViewController.m in Sources */,
