@@ -1,18 +1,18 @@
 //
-//  registerViewController.m
+//  finshiRegisterViewController.m
 //  DoctorAndE
 //
-//  Created by Krt on 14/11/5.
+//  Created by Krt on 14/11/6.
 //  Copyright (c) 2014年 skytoup. All rights reserved.
 //
 
-#import "registerViewController.h"
-#import "passwordViewController.h"
-@interface registerViewController ()
+#import "finshiRegisterViewController.h"
+#import "TabBarViewController.h"
+@interface finshiRegisterViewController ()
 
 @end
 
-@implementation registerViewController
+@implementation finshiRegisterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,8 +34,8 @@
 }
 */
 
-- (IBAction)next:(id)sender {
-    passwordViewController *nextP=[[passwordViewController alloc]init];
-    [self presentViewController:nextP animated:YES completion:nil];
+- (IBAction)homeB:(id)sender {
+    TabBarViewController *home=[[TabBarViewController alloc]init];
+    [self presentViewController:home animated:YES completion:nil];
 }
 @end

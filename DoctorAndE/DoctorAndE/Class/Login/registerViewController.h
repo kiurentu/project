@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface registerViewController : UIViewController
+- (IBAction)next:(id)sender;
 
 @end

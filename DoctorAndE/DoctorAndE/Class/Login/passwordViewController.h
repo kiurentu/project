@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface passwordViewController : UIViewController
+- (IBAction)next:(id)sender;
 
 @end

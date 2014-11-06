@@ -12,5 +12,6 @@
  *  登录
  */
 @interface LoginViewController : UIViewController
+- (IBAction)toRegister:(id)sender;
 
 @end

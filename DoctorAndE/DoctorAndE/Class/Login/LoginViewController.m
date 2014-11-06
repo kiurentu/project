@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "AppDelegate.h"
+#import "registerViewController.h"
 
 @interface LoginViewController ()
 
@@ -47,4 +48,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)toRegister:(id)sender {
+    registerViewController *toRe =[[registerViewController alloc]init];
+//    [self.navigationController pushViewController:toRe animated:YES];
+    [self presentViewController:toRe animated:YES completion:nil];
+
+}
 @end

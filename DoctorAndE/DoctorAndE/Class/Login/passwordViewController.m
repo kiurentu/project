@@ -7,7 +7,7 @@
 //
 
 #import "passwordViewController.h"
-
+#import "finshiRegisterViewController.h"
 @interface passwordViewController ()
 
 @end
@@ -34,4 +34,8 @@
 }
 */
 
+- (IBAction)next:(id)sender {
+    finshiRegisterViewController *nextF =[[finshiRegisterViewController alloc]init];
+    [self presentViewController:nextF animated:YES completion:nil];
+}
 @end

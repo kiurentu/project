@@ -18,9 +18,6 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total-screen__bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="KX4-MD-6JC">
                     <rect key="frame" x="8" y="190" width="304" height="85"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total-screen__user.png" translatesAutoresizingMaskIntoConstraints="NO" id="wm3-Ue-jAL">
-                    <rect key="frame" x="113" y="56" width="95" height="95"/>
-                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWN-lQ-ote">
                     <rect key="frame" x="9" y="308" width="298" height="33"/>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -38,14 +35,17 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total-screen_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="G1B-MS-EnW">
                     <rect key="frame" x="8" y="232" width="305" height="1"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNt-Ra-e0k">
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNt-Ra-e0k">
                     <rect key="frame" x="266" y="518" width="46" height="30"/>
                     <state key="normal" title="注册" backgroundImage="total-screen_btn-pressed.png">
                         <color key="titleColor" red="0.015686274509803921" green="0.58039215686274515" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="toRegister:" destination="-1" eventType="touchUpInside" id="Ycd-2N-VgT"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dkd-TQ-ipp">
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dkd-TQ-ipp">
                     <rect key="frame" x="8" y="518" width="90" height="30"/>
                     <state key="normal" title="找回密码" backgroundImage="total-screen_btn-pressed.png">
                         <color key="titleColor" red="0.039215686274509803" green="0.59215686274509804" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
@@ -75,8 +75,17 @@
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                 </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total-screen__user.png" translatesAutoresizingMaskIntoConstraints="NO" id="wm3-Ue-jAL">
+                    <rect key="frame" x="113" y="56" width="95" height="95"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Dkd-TQ-ipp" secondAttribute="bottom" constant="20" id="3Ak-fm-e8k"/>
+                <constraint firstAttribute="trailing" secondItem="eNt-Ra-e0k" secondAttribute="trailing" constant="8" id="Hhj-tR-yjI"/>
+                <constraint firstItem="Dkd-TQ-ipp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="fNJ-3s-si7"/>
+                <constraint firstAttribute="bottom" secondItem="eNt-Ra-e0k" secondAttribute="bottom" constant="20" id="o0y-3x-cKD"/>
+            </constraints>
             <point key="canvasLocation" x="330" y="436"/>
         </view>
     </objects>
