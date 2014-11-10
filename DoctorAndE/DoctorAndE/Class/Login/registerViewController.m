@@ -38,4 +38,8 @@
     passwordViewController *nextP=[[passwordViewController alloc]init];
     [self presentViewController:nextP animated:YES completion:nil];
 }
+
+- (IBAction)dissmissKey:(id)sender {
+    [self.view endEditing:YES];
+}
 @end

@@ -38,4 +38,8 @@
     finshiRegisterViewController *nextF =[[finshiRegisterViewController alloc]init];
     [self presentViewController:nextF animated:YES completion:nil];
 }
+
+- (IBAction)dissmissKey:(id)sender {
+    [self.view endEditing:YES];
+}
 @end

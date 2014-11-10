@@ -10,5 +10,6 @@
 
 @interface passwordViewController : UIViewController
 - (IBAction)next:(id)sender;
+- (IBAction)dissmissKey:(id)sender;
 
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface passwordFindViewController : UIViewController
+- (IBAction)dissmissKey:(id)sender;
 
 @end
